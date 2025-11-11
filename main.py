@@ -9,7 +9,7 @@ player_count = input("One or two player: ")
 
 while y == 0:
     while a == 0:   
-        if player_count  == ("one"):
+        if player_count  == ("one") or ("1") or ("One"):
             choice_2 = random.randint(1,3)
             choice_1 =input("Choose Fire, Water, or Grass: ")
     
@@ -28,7 +28,7 @@ while y == 0:
             a = a + 1
             #break
             #print("stuck in a loop")
-        elif player_count  == ("two"):
+        elif player_count  == ("two") or ("2") or ("Two"):
             choice_1 = input("Player 1 choose Fire, Water, or Grass: ")
 
             x = 0
