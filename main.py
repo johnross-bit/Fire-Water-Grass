@@ -11,26 +11,26 @@ player_count = input("One or two player: ")
 
 while y == 0:
     while a == 0:   
-        if player_count  == ("one"):
+        if player_count  == ("one") or "1":
             choice_2 = random.randint(1,3)
             choice_1 =input("Choose Fire, Water, or Grass: ")
     
-            if choice_1 == ("fire"):
+            if choice_1 == ("fire") or "Fire":
                 choice_1 = 1
-            if choice_1 == ("water"):
+            if choice_1 == ("water") or "Water":
                 choice_1 = 2
-            if choice_1 == ("grass"):
+            if choice_1 == ("grass") or "Grass":
                 choice_1 = 3
             
             win_player = fire_water_grass(choice_1, choice_2, player_count)
             pl_ag = input("Would You like to play again: ")
-            if pl_ag == "yes":
+            if pl_ag == "yes" or "Yes":
                 continue
             y = y + 1
             a = a + 1
             #break
             #print("stuck in a loop")
-        elif player_count  == ("two"):
+        elif player_count  == ("two") or "2":
             choice_1 = input("Player 1 choose Fire, Water, or Grass: ")
 
             x = 0
@@ -39,22 +39,22 @@ while y == 0:
                 x = x + 1
             choice_2 = input("Player 2 choose Fire, Water, or Grass: ")
 
-            if choice_1 == ("fire"):
+            if choice_1 == ("fire") or "Fire":
                 choice_1 = 1
-            if choice_2 == ("fire"):
+            if choice_2 == ("fire") or "Fire":
                 choice_2 = 1
-            if choice_1 == ("water"):
+            if choice_1 == ("water") or "Water":
                 choice_1 = 2
-            if choice_2 == ("water"):
+            if choice_2 == ("water") or "Water":
                 choice_2 = 2
-            if choice_1 == ("grass"):
+            if choice_1 == ("grass") or "Grass":
                 choice_1 = 3
-            if choice_2 == ("grass"):
+            if choice_2 == ("grass") or "Grass":
                 choice_2 = 3
 
             win_player = fire_water_grass(choice_1, choice_2, player_count)
             pl_ag = input("Would you like to play again: ")
-            if pl_ag == "yes":
+            if pl_ag == "yes" or "Yes":
                     continue
             y = 1
             a = 1
