@@ -28,8 +28,6 @@ while y == 0:
                 continue
             y = y + 1
             a = a + 1
-            #break
-            #print("stuck in a loop")
         elif player_count  == ("two") or "2":
             choice_1 = input("Player 1 choose Fire, Water, or Grass: ")
 
