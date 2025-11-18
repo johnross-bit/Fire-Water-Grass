@@ -7,7 +7,7 @@ y = 0
 a = 0
 b = 0
 c = 0
-player_count = input("One or two player: ")
+player_count = input("One or two players: ")
 
 while y == 0:
     while a == 0:   
@@ -23,19 +23,19 @@ while y == 0:
                 choice_1 = 3
             
             win_player = fire_water_grass(choice_1, choice_2, player_count)
-            pl_ag = input("Would You like to play again: ")
+            pl_ag = input("Would you like to play again: ")
             if pl_ag == "yes" or "Yes":
                 continue
             y = y + 1
             a = a + 1
         elif player_count  == ("two") or "2":
-            choice_1 = input("Player 1 choose Fire, Water, or Grass: ")
+            choice_1 = input("Player 1, choose Fire, Water, or Grass: ")
 
             x = 0
             while x < 50:
                 print("                                                  ")
                 x = x + 1
-            choice_2 = input("Player 2 choose Fire, Water, or Grass: ")
+            choice_2 = input("Player 2, choose Fire, Water, or Grass: ")
 
             if choice_1 == ("fire") or "Fire":
                 choice_1 = 1
