@@ -15,7 +15,6 @@ def fire_water_grass(choice_1, choice_2, player_count):
             print("You win, Fire beats Grass!")
             return 1
         if choice_1 == 2 and choice_2 == 1:
-            print("second")
             print("You win, Water beats Fire!")
             return 1.1
         if choice_1 == 3 and choice_2 == 2:
@@ -32,13 +31,13 @@ def fire_water_grass(choice_1, choice_2, player_count):
             return 3.2
     elif player_count == "two" or "2":
         if choice_2 == 1 and choice_1 == 3:
-            print("Player 2 wins, Fire beats Grass.")
+            print("Player 2 wins, Fire beats Grass!")
             return 2
         if choice_2 == 2 and choice_1 == 1:
-            print("Player 2 wins, Water beats Fire.")
+            print("Player 2 wins, Water beats Fire!")
             return 2.1
         if choice_2 == 3 and choice_1 == 2:
-            print("Player 2 wins, Grass beats Water.")
+            print("Player 2 wins, Grass beats Water!")
             return 2.2
         if choice_1 == 1 and choice_2 == 3:
             print("Player 1 wins, Fire beats Grass!")
